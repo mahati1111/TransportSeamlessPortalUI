@@ -1,0 +1,10 @@
+{
+  "description": "This user-friendly portal offers seamless navigation and a clean interface, enhancing accessibility and efficiency for all users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

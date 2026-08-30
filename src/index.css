@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@theme {
+  --color-purple-950: #1C0F4A;
+  --color-purple-900: #2D1B69;
+  --color-purple-800: #3D2694;
+  --color-purple-700: #5B21B6;
+  --color-purple-600: #7C3AED;
+  --color-purple-500: #8B5CF6;
+  --color-purple-100: #EDE9FE;
+  --color-purple-50: #F5F3FF;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --font-open: 'Open Sans', sans-serif;
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 4px;
+}
